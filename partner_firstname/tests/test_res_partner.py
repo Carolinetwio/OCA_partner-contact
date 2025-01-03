@@ -40,8 +40,7 @@ def test_lang_computation_form_view(self):
     # def onchange_company_type(self):
     #     self.is_company = (self.company_type == 'company')
     partner_form.company_type = 'company'
-    partner_form.firstname = "Test"
-    partner_form.lastname = "Company"
+    partner_form.name = "Test Company"
     self.assertEqual(partner_form.lang, 'de_DE', "New partner's lang should take default from context")
     with partner_form.child_ids.new() as child:
         child.firstname = "First"
