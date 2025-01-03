@@ -1,3 +1,4 @@
+from odoo.tests import Form
 from odoo.addons.base.tests.test_form_create import TestFormCreate
 
 def test_create_res_partner(self):
