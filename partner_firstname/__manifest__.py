@@ -6,7 +6,7 @@
 {
     "name": "Partner first name and last name",
     "summary": "Split first name and last name for non company partners",
-    "version": "18.0.1.1.3",
+    "version": "18.0.1.1.4",
     "author": "Camptocamp, "
     "Grupo ESOC Ingeniería de Servicios, "
     "Tecnativa, "
