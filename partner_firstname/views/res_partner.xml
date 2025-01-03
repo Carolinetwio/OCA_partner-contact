@@ -71,7 +71,6 @@
                 position="after"
             >
                 <div class="oe_edit_only" colspan="2">
-                    <field name="is_company" invisible="True" />
                     <group invisible="is_company">
                         <field
                             name="lastname"
